@@ -3,10 +3,10 @@
      xmlns:em="http://www.mozilla.org/2004/em-rdf#">
 
   <Description about="urn:mozilla:install-manifest">
-    <em:id>lighterwtaustralis@scott-michaud.com</em:id>
-    <em:version>1.0.1</em:version>
-    <em:name>Lighterweight Themes for Australis</em:name>
-    <em:description>With this extension, Lightweight Themes (formerly, "Personas") are limited to unselected tabs and the empty space around them. It also allows the user to define the amount of padding above and to the right of Firefox's TabBar, none by default, to reveal as much of the theme as they desire.</em:description>
+    <em:id>moreorlesspadding@scott-michaud.com</em:id>
+    <em:version>1.0</em:version>
+    <em:name>More or Less Window Padding</em:name>
+    <em:description>This extension allows users to add blank space above, and to the right of, their tab bar. It can also be used to remove the extra padding, added by Firefox, in Windowed mode.</em:description>
     <em:creator>Scott Michaud</em:creator>
     <em:homepageURL>http://scott-michaud.com</em:homepageURL>
     <em:type>2</em:type>
@@ -19,7 +19,7 @@
     </em:targetApplication>
     <em:unpack>true</em:unpack>
     <em:bootstrap>true</em:bootstrap>
-    <em:optionsURL>chrome://lighterwtaustralis/content/options.xul</em:optionsURL>
+    <em:optionsURL>chrome://moreorlesspadding/content/options.xul</em:optionsURL>
     <em:optionsType>2</em:optionsType>
   </Description>
 </RDF>

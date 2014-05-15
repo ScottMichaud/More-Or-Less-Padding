@@ -60,16 +60,16 @@ function loadMainStyleSheet() {
   let urlString = "";
   switch (osString) {
     case "WINNT":
-    urlString = 'chrome://lighterwtaustralis/content/styleWin.css';
+    urlString = 'chrome://moreorlesspadding/content/styleWin.css';
     break;
     case "Linux":
-    urlString = 'chrome://lighterwtaustralis/content/styleLinux.css';
+    urlString = 'chrome://moreorlesspadding/content/styleLinux.css';
     break;
     case "Darwin":
-    urlString = 'chrome://lighterwtaustralis/content/styleMac.css';
+    urlString = 'chrome://moreorlesspadding/content/styleMac.css';
     break;
     default: //Probably something 'NIX or BSD, why not?
-    urlString = 'chrome://lighterwtaustralis/content/styleLinux.css';
+    urlString = 'chrome://moreorlesspadding/content/styleLinux.css';
   }
   
   let sss = Cc["@mozilla.org/content/style-sheet-service;1"]

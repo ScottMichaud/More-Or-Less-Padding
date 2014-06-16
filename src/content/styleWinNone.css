@@ -4,5 +4,7 @@ one at http://mozilla.org/MPL/2.0/. */
 
 @-moz-document url(chrome://browser/content/browser.xul)
 {
-  
+  #main-window #TabsToolbar {
+    margin-top: -1px !important;
+  }
 }

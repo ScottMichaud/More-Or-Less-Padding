@@ -4,7 +4,7 @@
 
   <Description about="urn:mozilla:install-manifest">
     <em:id>moreorlesspadding@scott-michaud.com</em:id>
-    <em:version>1.0</em:version>
+    <em:version>1.1</em:version>
     <em:name>More or Less Window Padding</em:name>
     <em:description>This extension allows users to add blank space above, and to the right of, their tab bar. It can also be used to remove the extra padding, added by Firefox, in Windowed mode.</em:description>
     <em:creator>Scott Michaud</em:creator>
